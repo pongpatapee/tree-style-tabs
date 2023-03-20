@@ -1,0 +1,15 @@
+{
+    "name": "Tree Style Tabs",
+    "version": "1.0.0",
+    "description": "Manage your tabs with a tree like structure",
+    "manifest_version": 3,
+    "author": "Dan Peerapatanapokin",
+    "permissions": [
+        "tabs",
+        "tabGroups"
+    ],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Tree Style Tabs"
+    }
+}
