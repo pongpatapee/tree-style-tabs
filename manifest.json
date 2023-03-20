@@ -5,10 +5,16 @@
     "manifest_version": 3,
     "author": "Dan Peerapatanapokin",
     "permissions": [
+        "storage",
         "tabs",
-        "tabGroups"
+        "tabGroups",
+        "activeTab"
     ],
-    "action":{
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
         "default_popup": "index.html",
         "default_title": "Tree Style Tabs"
     }

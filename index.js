@@ -10,5 +10,6 @@ chrome.tabs.query({currentWindow: true}, (tabs) => {
         document.getElementById("currentWindowTabs").append(tabdiv);
     });
 
+    console.log('what the fuck is happening')
     console.log(tabs);
 });
